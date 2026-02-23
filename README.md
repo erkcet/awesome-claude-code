@@ -334,9 +334,9 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 
 ## Maintainer
 
-**Erkan** — Ohio State University, Computer Science & Engineering '12. Building tools and curating resources for the Claude ecosystem.
+**Erkan**
 
-- GitHub: [@erkan](https://github.com/erkan)
+- GitHub: [@erkcet](https://github.com/erkcet)
 
 ## License
 
