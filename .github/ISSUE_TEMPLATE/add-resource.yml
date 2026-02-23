@@ -1,0 +1,51 @@
+name: Suggest a Resource
+description: Suggest a tool, project, article, or other resource to add to the list.
+title: "[Resource] "
+labels: ["suggestion"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section does this resource belong to?
+      options:
+        - Community Project
+        - MCP Server
+        - CLAUDE.md Template
+        - Hook Recipe
+        - Article / Blog Post
+        - Video / Tutorial
+        - Workflow / Pattern
+        - IDE Integration
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      placeholder: e.g., mcp-server-redis
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A one-line description (under 120 characters).
+      placeholder: Redis integration for Claude Code via MCP.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+      description: What makes this resource valuable? Is it actively maintained? Does it solve a unique problem?
+    validations:
+      required: false

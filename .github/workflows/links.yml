@@ -1,0 +1,40 @@
+name: Check Links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+  pull_request:
+    branches: [main]
+    paths:
+      - "**.md"
+  schedule:
+    - cron: "0 9 * * 1" # Every Monday at 9 AM UTC
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,301,302,403,429
+            --exclude-mail
+            --exclude "^https://x\\.com"
+            --exclude "^https://twitter\\.com"
+            --exclude "^https://discord\\.gg"
+            --exclude "^https://api\\.star-history\\.com"
+            --timeout 30
+            "README.md"
+            "CONTRIBUTING.md"
+            "templates/**/*.md"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

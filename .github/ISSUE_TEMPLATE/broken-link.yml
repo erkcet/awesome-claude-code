@@ -1,0 +1,41 @@
+name: Report a Broken Link
+description: Report a dead or broken link in the list.
+title: "[Broken Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      description: The URL that is no longer working.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section of the README contains this link?
+      placeholder: e.g., Community MCP Servers
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue Type
+      options:
+        - 404 Not Found
+        - Repository deleted or archived
+        - Domain expired
+        - Redirects to unrelated page
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested Replacement (optional)
+      description: If you know an updated URL or a better alternative, please share it.
+      placeholder: https://github.com/...
+    validations:
+      required: false
