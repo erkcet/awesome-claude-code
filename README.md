@@ -538,6 +538,7 @@ Use the existing test patterns in this project.
 
 - [claude-code-router](https://github.com/anthropics/claude-code) - Built-in model routing for cost optimization (use haiku for simple tasks, opus for complex ones).
 - [claude-code-action](https://github.com/anthropics/claude-code-action) - GitHub Action for running Claude Code in CI/CD pipelines.
+- [ccthread](https://github.com/jakemarsh/ccthread) - Read, search, and have Claude summarize your Claude Code conversation logs from the CLI. Plugin + standalone binary.
 
 ## Skills
 
