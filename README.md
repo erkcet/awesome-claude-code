@@ -911,6 +911,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [mcpservers.org](https://mcpservers.org/) - Directory and registry of MCP servers.
 - [mcp.run](https://mcp.run/) - Run MCP servers in a secure sandbox without local installation.
 - [Smithery](https://smithery.ai/) - Package registry for MCP servers with one-click install.
+- [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local macOS companion for Claude Code and Codex sessions with live narration, Global Mix, and blocker alerts.
 
 ### Frameworks & Libraries
 
