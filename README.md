@@ -520,6 +520,7 @@ Use the existing test patterns in this project.
 - [mcp-server-notion](https://github.com/v-3/notion-server) - Notion workspace access and page management.
 - [mcp-server-raycast](https://github.com/raycast/mcp-server-raycast) - Raycast integration for macOS.
 - [mcp-server-obsidian](https://github.com/smithery-ai/mcp-obsidian) - Obsidian vault access and note management.
+- [evc-team-relay-mcp](https://github.com/entire-vc/evc-team-relay-mcp) - Collaborative Obsidian vault access via Team Relay with real-time CRDT sync.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [mcp-server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) - Sentry error tracking integration.
 - [mcp-server-turso](https://github.com/SilasMarvin/mcp-server-turso) - Turso/LibSQL database access.
