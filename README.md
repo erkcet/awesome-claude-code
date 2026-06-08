@@ -524,6 +524,7 @@ Use the existing test patterns in this project.
 - [mcp-server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) - Sentry error tracking integration.
 - [mcp-server-turso](https://github.com/SilasMarvin/mcp-server-turso) - Turso/LibSQL database access.
 - [mcp-server-supabase](https://github.com/supabase-community/supabase-mcp) - Supabase database and auth integration.
+- [twzrd-agent-intel](https://intel.twzrd.xyz) - Trust scoring for Solana AI agents. Verify wallet identity before x402 micropayments. Zero-install: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ### MCP Resources
 
