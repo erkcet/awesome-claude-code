@@ -911,6 +911,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [mcpservers.org](https://mcpservers.org/) - Directory and registry of MCP servers.
 - [mcp.run](https://mcp.run/) - Run MCP servers in a secure sandbox without local installation.
 - [Smithery](https://smithery.ai/) - Package registry for MCP servers with one-click install.
+- [claude-code-multi-model-review](https://github.com/baiyanmo/claude-code-multi-model-review) - Claude Code skill that invokes multiple AI models (DeepSeek, Doubao, Qwen, OpenAI) in parallel to review git diffs with cross-validation.
 
 ### Frameworks & Libraries
 
