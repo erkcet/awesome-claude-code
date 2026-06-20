@@ -840,6 +840,7 @@ export ANTHROPIC_MAX_TOKENS=100000  # Limit per session
 
 - [Anthropic Console](https://console.anthropic.com/) - Official usage dashboard and billing.
 - [LLM Cost Calculator](https://llmpricecheck.com/) - Compare Claude Code costs with other AI coding tools.
+- [ax](https://github.com/Necmttn/ax) - Local-first cost, skill, tool, and telemetry dashboard for Claude Code, Codex, OpenCode, Cursor, and Pi.
 
 ## Security & Permissions
 
