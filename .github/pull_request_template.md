@@ -1,3 +1,5 @@
+# Pull Request
+
 ## What are you adding?
 
 <!-- Describe the resource(s) you're adding -->
@@ -9,6 +11,8 @@
 - [ ] Official Resources
 - [ ] CLAUDE.md Template
 - [ ] MCP Server
+- [ ] Plugin
+- [ ] Skill
 - [ ] Hook Recipe
 - [ ] Workflow / Pattern
 - [ ] Community Project
