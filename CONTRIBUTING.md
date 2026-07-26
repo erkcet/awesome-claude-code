@@ -67,9 +67,9 @@ Follow the existing format exactly:
 
 ### Reporting Issues
 
-- **Broken link?** [Open an issue](../../issues/new?template=broken-link.yml) or submit a PR to fix/remove it.
+- **Broken link?** [Open an issue](https://github.com/erkcet/awesome-claude-code/issues/new?template=broken-link.yml) or submit a PR to fix/remove it.
 - **Outdated resource?** Open an issue describing what's changed.
-- **Suggestion?** [Open a resource suggestion](../../issues/new?template=add-resource.yml).
+- **Suggestion?** [Open a resource suggestion](https://github.com/erkcet/awesome-claude-code/issues/new?template=add-resource.yml).
 
 ## Link Validation
 

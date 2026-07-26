@@ -501,14 +501,14 @@ Use the existing test patterns in this project.
 ### Official / First-Party
 
 - [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Secure file system access with configurable permissions.
-- [mcp-server-github](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - GitHub API integration for repos, issues, PRs.
-- [mcp-server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - Read-only PostgreSQL database access.
-- [mcp-server-sqlite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) - SQLite database interaction and querying.
-- [mcp-server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web search via Brave Search API.
-- [mcp-server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) - Browser automation and web scraping.
-- [mcp-server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - Slack workspace integration.
+- [github-mcp-server](https://github.com/github/github-mcp-server) - GitHub's official API integration for repositories, issues, and pull requests.
+- [mcp-server-postgres](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) - Archived reference server for read-only PostgreSQL access.
+- [mcp-server-sqlite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) - Archived reference server for SQLite querying.
+- [mcp-server-brave-search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) - Archived reference server for Brave Search.
+- [mcp-server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) - Archived reference server for browser automation.
+- [mcp-server-slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) - Archived reference server for Slack integration.
 - [mcp-server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Persistent memory using a knowledge graph.
-- [mcp-server-google-maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) - Google Maps integration for location data.
+- [mcp-server-google-maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps) - Archived reference server for Google Maps integration.
 - [mcp-server-fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetch and convert web pages to markdown.
 - [mcp-server-sequential-thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Dynamic problem-solving through thought sequences.
 
@@ -518,17 +518,15 @@ Use the existing test patterns in this project.
 - [mcp-server-kubernetes](https://github.com/strowk/mcp-k8s-go) - Kubernetes cluster management.
 - [mcp-server-linear](https://github.com/jerhadf/linear-mcp-server) - Linear issue tracker integration.
 - [mcp-server-notion](https://github.com/v-3/notion-server) - Notion workspace access and page management.
-- [mcp-server-raycast](https://github.com/raycast/mcp-server-raycast) - Raycast integration for macOS.
-- [mcp-server-obsidian](https://github.com/smithery-ai/mcp-obsidian) - Obsidian vault access and note management.
+- [mcp-server-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) - Obsidian vault access and note management.
 - [evc-team-relay-mcp](https://github.com/entire-vc/evc-team-relay-mcp) - Collaborative Obsidian vault access via Team Relay with real-time CRDT sync.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
-- [mcp-server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) - Sentry error tracking integration.
-- [mcp-server-turso](https://github.com/SilasMarvin/mcp-server-turso) - Turso/LibSQL database access.
-- [mcp-server-supabase](https://github.com/supabase-community/supabase-mcp) - Supabase database and auth integration.
+- [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
+- [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
 
 ### MCP Resources
 
-- [MCP Specification](https://spec.modelcontextprotocol.io/) - Full protocol specification.
+- [MCP Specification](https://modelcontextprotocol.io/specification/latest) - Full protocol specification.
 - [Build Your Own MCP Server](https://modelcontextprotocol.io/quickstart/server) - Tutorial for creating custom MCP servers.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript SDK for building MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Python SDK for building MCP servers.
@@ -808,8 +806,8 @@ console.log(JSON.parse(result.text));
 
 ## IDE Integrations
 
-- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=anthropics.claude-code) - Official VS Code integration with inline diffs and chat panel.
-- [JetBrains Plugin](https://plugins.jetbrains.com/plugin/claude-code) - Official IntelliJ/WebStorm/PyCharm integration.
+- [VS Code Extension](https://code.claude.com/docs/en/vs-code) - Official VS Code integration with inline diffs and chat panel.
+- [JetBrains Plugin](https://code.claude.com/docs/en/jetbrains) - Official IntelliJ/WebStorm/PyCharm integration.
 - [Claude Code Desktop](https://claude.ai/download) - Standalone desktop app with terminal integration.
 - [Neovim Plugin (avante.nvim)](https://github.com/yetone/avante.nvim) - Neovim integration supporting Claude as a backend.
 - [Cursor](https://cursor.com/) - AI-first code editor with Claude model support.
@@ -909,9 +907,7 @@ Claude Code has a granular permission system to control what actions it can take
 ### Tools & Extensions
 
 - [claude-code-action](https://github.com/anthropics/claude-code-action) - GitHub Action for running Claude Code in CI/CD workflows.
-- [ClaudeMD](https://github.com/NicolasGandworkin/ClaudeMD) - VS Code extension for editing and managing CLAUDE.md files.
-- [claude-code-tmux](https://github.com/shtse8/claude-code-tmux) - Run multiple Claude Code sessions in tmux panes.
-- [claude-code-power-pack](https://github.com/nicobailon/claude-code-power-pack) - Collection of slash commands, hooks, and CLAUDE.md templates.
+
 - [mcpservers.org](https://mcpservers.org/) - Directory and registry of MCP servers.
 - [mcp.run](https://mcp.run/) - Run MCP servers in a secure sandbox without local installation.
 - [Smithery](https://smithery.ai/) - Package registry for MCP servers with one-click install.
@@ -926,30 +922,25 @@ Claude Code has a granular permission system to control what actions it can take
 
 ### Example Projects
 
-- [claude-code-examples](https://github.com/anthropics/anthropic-cookbook/tree/main/claude-code) - Official example projects and patterns from Anthropic.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 
 ## Articles & Blog Posts
 
-- [Introducing Claude Code](https://www.anthropic.com/news/claude-code) - Official announcement from Anthropic.
+- [Claude Code](https://www.anthropic.com/claude-code) - Official Claude Code product overview from Anthropic.
 - [Claude Code: Best Practices for Agentic Coding](https://www.anthropic.com/engineering/claude-code-best-practices) - Engineering deep-dive from the Anthropic team.
 - [How We Build Software at Anthropic](https://www.anthropic.com/engineering/swe-bench-sonnet) - How Anthropic uses Claude Code internally.
-- [Claude Code and the Model Context Protocol](https://modelcontextprotocol.io/tutorials/claude-code) - Tutorial on extending Claude Code with MCP.
-- [Tips for Using Claude Code Effectively](https://docs.anthropic.com/en/docs/claude-code/tips) - Official tips from Anthropic's docs.
+- [Claude Code and the Model Context Protocol](https://code.claude.com/docs/en/mcp) - Official guide to extending Claude Code with MCP.
 - [Building AI Agents with Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code/sdk) - Guide to building custom agents.
 - [Claude Code Hooks Deep Dive](https://docs.anthropic.com/en/docs/claude-code/hooks) - Comprehensive guide to the hooks system.
-- [Claude Max and Claude Code](https://www.anthropic.com/news/max-plan) - Using Claude Code with the Max subscription plan.
+
 
 ## Videos & Tutorials
-
-- [Claude Code Official Demo](https://www.youtube.com/watch?v=Oq9oSVL3U3M) - Official Anthropic demo of Claude Code capabilities.
-- [Claude Code in 100 Seconds](https://www.youtube.com/watch?v=H_OaCSECbGo) - Fireship's quick overview of Claude Code.
 
 *Know a great video tutorial? [Submit a PR!](CONTRIBUTING.md)*
 
 ## Community
 
-- [Claude Code GitHub Discussions](https://github.com/anthropics/claude-code/discussions) - Official community discussions.
+- [Claude Code GitHub Issues](https://github.com/anthropics/claude-code/issues) - Official issue tracker and community feedback.
 - [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) - Reddit community for all things Claude.
 - [Anthropic Discord](https://discord.gg/anthropic) - Official Anthropic Discord server.
 - [Claude Code Twitter/X Community](https://x.com/search?q=%23claudecode) - Follow #claudecode for tips and projects.
