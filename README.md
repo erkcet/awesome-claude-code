@@ -912,6 +912,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [mcp.run](https://mcp.run/) - Run MCP servers in a secure sandbox without local installation.
 - [Smithery](https://smithery.ai/) - Package registry for MCP servers with one-click install.
 - [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Expose a restricted local Claude Code or other agent command as a keyed trusted-LAN capability.
+- [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) - Collection of 70 open-source Agent Skills for Claude Code and Codex, covering code review, AI evals, CI gates, design, copy, and SEO.
 
 ### Frameworks & Libraries
 
