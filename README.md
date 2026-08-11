@@ -842,6 +842,7 @@ export ANTHROPIC_MAX_TOKENS=100000  # Limit per session
 - [LLM Cost Calculator](https://llmpricecheck.com/) - Compare Claude Code costs with other AI coding tools.
 - [ax](https://github.com/Necmttn/ax) - Local-first cost, skill, tool, and telemetry dashboard for Claude Code, Codex, OpenCode, Cursor, and Pi.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Inspect local Claude/Codex agent sessions for cost, tokens, latency, tool failures, and CI gates.
+- [QuotaDock](https://github.com/jungdosa/QuotaDock) - Windows always-on-top widget showing remaining Claude Code session/weekly quota and reset countdowns, plus Codex and Antigravity. Reads existing CLI sign-ins; nothing to paste, no telemetry.
 
 ## Security & Permissions
 
