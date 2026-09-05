@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [ParlayAPI MCP](https://github.com/JacobiusMakes/parlay-api-mcp) - Sports odds and source coverage for personal/internal research, with keyless discovery and own-key data.
 
 ### MCP Resources
 
