@@ -932,6 +932,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [Claude Code and the Model Context Protocol](https://code.claude.com/docs/en/mcp) - Official guide to extending Claude Code with MCP.
 - [Building AI Agents with Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code/sdk) - Guide to building custom agents.
 - [Claude Code Hooks Deep Dive](https://docs.anthropic.com/en/docs/claude-code/hooks) - Comprehensive guide to the hooks system.
+- [Audit Your CLAUDE.md With Evidence, Not More Rules](https://dev.to/cgozdemm/audit-your-claudemd-with-evidence-not-more-rules-515m) - A practical audit loop separating repository guidance from permissions, tests, and CI enforcement.
 
 
 ## Videos & Tutorials
