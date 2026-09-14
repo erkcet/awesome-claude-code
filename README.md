@@ -923,6 +923,7 @@ Claude Code has a granular permission system to control what actions it can take
 ### Example Projects
 
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
+- [Product Mode](https://github.com/sohaibt/product-mode) - Product guidance for problem framing, scope, tradeoffs, and outcome measurement before coding.
 
 ## Articles & Blog Posts
 
