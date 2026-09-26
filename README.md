@@ -530,6 +530,7 @@ Use the existing test patterns in this project.
 - [Build Your Own MCP Server](https://modelcontextprotocol.io/quickstart/server) - Tutorial for creating custom MCP servers.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript SDK for building MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Python SDK for building MCP servers.
+- [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp`.
 
 ## Plugins
 
