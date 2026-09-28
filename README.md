@@ -524,6 +524,8 @@ Use the existing test patterns in this project.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
 
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with scoped, expiring MCP grants and device sync.
+
 ### MCP Resources
 
 - [MCP Specification](https://modelcontextprotocol.io/specification/latest) - Full protocol specification.
