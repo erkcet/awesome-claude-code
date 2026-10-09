@@ -912,6 +912,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [mcp.run](https://mcp.run/) - Run MCP servers in a secure sandbox without local installation.
 - [Smithery](https://smithery.ai/) - Package registry for MCP servers with one-click install.
 - [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Expose a restricted local Claude Code or other agent command as a keyed trusted-LAN capability.
+- [Drevon](https://github.com/csakash/drevon) - Turns any directory into an AI workspace with shared config, persistent memory and skills via `npx drevon init`.
 
 ### Frameworks & Libraries
 
