@@ -538,6 +538,7 @@ Use the existing test patterns in this project.
 - [claude-code-router](https://github.com/anthropics/claude-code) - Built-in model routing for cost optimization (use haiku for simple tasks, opus for complex ones).
 - [claude-code-action](https://github.com/anthropics/claude-code-action) - GitHub Action for running Claude Code in CI/CD pipelines.
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Xquik X/Twitter plugin with a Claude manifest and approval-gated actions.
+- [workkit](https://github.com/ITW-Creative-Works/workkit) - Runs GitHub Issues as the work pipeline: labeled stages from spec to ship, worker and verifier subagents, and hooks that block a commit until the full test suite passes.
 
 ## Skills
 
