@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [Oh My Android](https://github.com/ateymoori/oh-my-android) - Native macOS app whose MCP server lets Claude Code see and drive the Android Emulator and phones.
 
 ### MCP Resources
 
