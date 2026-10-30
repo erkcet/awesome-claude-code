@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [CurlShot MCP](https://curlshot.com/docs/guides/ai-agents) - Remote MCP server that screenshots any public URL in a real browser as PNG, JPEG, WebP or PDF.
 
 ### MCP Resources
 
