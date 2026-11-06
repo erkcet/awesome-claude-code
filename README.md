@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server) - Remote MCP for data-center site selection with a daily Data Center Power Index (DCPI) across 300+ markets.
 
 ### MCP Resources
 
