@@ -932,6 +932,7 @@ Claude Code has a granular permission system to control what actions it can take
 - [Claude Code and the Model Context Protocol](https://code.claude.com/docs/en/mcp) - Official guide to extending Claude Code with MCP.
 - [Building AI Agents with Claude Code SDK](https://docs.anthropic.com/en/docs/claude-code/sdk) - Guide to building custom agents.
 - [Claude Code Hooks Deep Dive](https://docs.anthropic.com/en/docs/claude-code/hooks) - Comprehensive guide to the hooks system.
+- [Little Cups of Claude](https://littlecupsofclaude.com/?ref=awesome-claude-code) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one every weekday.
 
 
 ## Videos & Tutorials
