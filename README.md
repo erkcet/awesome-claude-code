@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [Runheed](https://runheed.com/?ref=awesome-claude-code) - Error tracking with a remote MCP server so Claude Code can read, fix and resolve production errors.
 
 ### MCP Resources
 
