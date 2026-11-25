@@ -523,6 +523,7 @@ Use the existing test patterns in this project.
 - [mcp-server-todoist](https://github.com/abhiz123/todoist-mcp-server) - Todoist task management integration.
 - [sentry-mcp](https://github.com/getsentry/sentry-mcp) - Official Sentry error tracking integration.
 - [mcp-server-supabase](https://github.com/supabase/mcp) - Supabase database and auth integration.
+- [kite-agent-plugins](https://github.com/kitedotnew/kite-agent-plugins) - Official Kite design MCP (hosted at `kite.new/api/mcp`) plus skill: Claude Code draws editable frames, text and components in a shared Kite design file and copies frames as HTML, React or Tailwind.
 
 ### MCP Resources
 
